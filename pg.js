@@ -407,7 +407,7 @@ var xxx = 0;
 for (let i = 0; i < game.length; i++) {
   xxx += game.charCodeAt(i);
 }
-
+function pgs(){
 for (let i = 0; i <= text.length; i++) {
   const d = new Date();
   var date = d.getUTCDate();
@@ -536,5 +536,6 @@ for (let i = 0; i <= text.length; i++) {
     pola1[1][i].style.color = "#ff0000";
     pola1[2][i].style.color = "#ff0000";
   }
+}
 }
 }
